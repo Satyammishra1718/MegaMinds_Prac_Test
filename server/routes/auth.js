@@ -4,7 +4,6 @@ import 'dotenv/config';
 
 const router = express.Router();
 const secretKey = process.env.SECRET_KEY;
-
 let users = [];
 
 router.get('/register', (req, res) => {
